@@ -3,13 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="contact.css" rel="stylesheet" type="text/css">
+    <link href="index.html">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Work+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
     <title>Contact</title>
 </head>
 <body>
-    <h2>Contact Info:</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam eos earum, sequi iure provident consectetur voluptas illum aliquid veniam deserunt.</p>
+    
+    <header>
+        <nav>
+            <label class="label" for="toggle">&#9776;</label>
+             <input type="checkbox" id="toggle"/>
+              <div class="menu">
+                <a href="./index.html">Home</a>
+                <a href="./index.html">About Me</a>
+                <a href="./index.html">Projects</a>
+                <a href="./index.html">Skills</a>
+               </div>
+         </nav>
+    </header>
 
-    <ul class="adress">
+
+    <div class="container">
+    <h2>Contact Info:</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Numquam eos earum, sequi iure provident consectetur voluptas.</p>
+    
+    <ul class="address">
         <li><strong>Address: </strong> Lorem ipsum dolor sit amet.</li>
         <li><strong>Phone:  </strong>0753-340-688</li>
         <li><strong>Email:  </strong>szoke_melinda@yahoo.com</li>
@@ -29,8 +50,15 @@
         <textarea  name="yourcomment" id="email" rows="8" cols="34"></textarea>
         <br>
         <br>
-        <input type="submit" value="Send Message">
+        <input class="send-button" type="submit" value="Send Message">
 
     </form>
-</body>
+    <div class="buttons">
+        <a href="https://www.facebook.com/melinda.szoke.39/" class="fa fa-facebook" target="_blank"></a>
+        <a href="https://www.instagram.com/melinda.szoke/" class="fa fa-instagram" target="_blank"></a>
+        <a href="https://github.com/SzokeMelinda/" class="fa fa-github" target="_blank"></a>
+       </div>
+ </div>
+ <script src="./javascript.js"></script>
+ </body>
 </html>

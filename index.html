@@ -3,6 +3,7 @@
 <head>
     <link href="style.css" rel="stylesheet" type="text/css">
      <link href="contact.html">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Work+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
@@ -11,28 +12,40 @@
 </head>
 <body>
     <!--Header-->
-    <div>
-       <header>
+    <!--Navigation Bar-->
+    <header>
+    <nav>
+       <label for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle"/>
+         <div class="menu">
+           <a href="#">Home</a>
+           <a href="#about">About Me</a>
+           <a href="#projects">Projects</a>
+           <a href="#skills">Skills</a>
+           <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container">
         <h1>Hello World!</h1>
-        <h2>I'm Melinda Szoke, a Front-end Web Developer focused on building beautiful interfaces & experiences.</h2>
+        <br>
+        <br>
+        <h2>I'm Melinda Szoke, a Front-end Web Developer focused on <br> building beautiful interfaces & experiences.</h2>
     </div>
-
-
-<!--Navigation Bar-->
-      <nav>
-        <a href="#">Home</a>
-        <a href="#about">About Me</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="contact.html">Contact</a>
-       </nav>
      </header> 
 
     <div id="about">
         <h2>About Me</h2>
-        <p>I'm currently learning Web Development at CodeCademy as I love creating applications that are scalable and efficient under the hood while providing engaging, pixel-perfect user experiences.
-            When I'm not in front of a computer screen, I'm probably hanging out with friends, reading books, or crossing off another item on my bucket list.</p>
+        <p>I'm currently learning Front-end Web Development at CodeCademy as I love creating web pages.
+            When I'm not in front of a computer screen, I'm probably hanging out with friends, reading books, traveling or crossing off another item on my bucket list.</p>
     </div>
+
+
+    <div class="slide-top">
+        <p>“We don't just build websites, we build websites that SELLS” <br>
+            ― Christopher Dayagdag</p>
+    </div>
+
+
 
     <!--Main Content-->
 
@@ -45,18 +58,22 @@
               <a href="#"> <img src="./Gallery/pc.jpg" alt="an image of a laptop"></a>
               <a href="#"> <img src="./Gallery/creativity.jpg" alt="a photo of a note in a hand"></a>
            </div> 
+        </div>
     </div>
+
+
+
 
     <div id="skills">
         <h2>Skills</h2>
       <p>I’ve picked up quite a few skills during self teaching myself and aim to improve these skills everyday. Here are a few of the technologies that I have experience with.</p>
-      <p>Languages:</p>
+      <h3>Languages:</h3>
       <ul>
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
       </ul>
-      <p>Tools</p>
+      <h3>Tools</h3>
       <ul>
           <li>Bash</li>
           <li>Git & GitHub</li>
@@ -66,6 +83,10 @@
     <footer>
         <h5>Melinda Szoke @ 2021</h5>
         <!--Social Media Buttons here-->
+        <a href="https://www.facebook.com/melinda.szoke.39/" class="fa fa-facebook" target="_blank"></a>
+        <a href="https://www.instagram.com/melinda.szoke/" class="fa fa-instagram" target="_blank"></a>
+        <a href="https://github.com/SzokeMelinda/" class="fa fa-github" target="_blank"></a>
+
 
     </footer>
 
