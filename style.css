@@ -289,7 +289,7 @@ h1 {
   }
   
   .container {
-    height: 500px;
+    height: 700px;
   }
   #toggle:checked + nav {
     height: 140px;
