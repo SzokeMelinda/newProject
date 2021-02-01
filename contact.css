@@ -182,16 +182,17 @@ p {
 }
 
 .send-button {
-    background-color: rgb(209, 138, 87);
+    background-color:rgb(133, 122, 64);
     padding: 15px;
     border-radius: 5px;
     font-weight: bold;
+    color:white;
     cursor: pointer;
 }
 
 .send-button:hover {
-    background-color: #beaa92;
+    background-color: #aaa094;
     font-size: 14px;
-    box-shadow: 3px 5px rgb(209, 138, 87);
+    box-shadow: 3px 5px rgb(226, 214, 194);
 }
 

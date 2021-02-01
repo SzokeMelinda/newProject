@@ -11,6 +11,7 @@
     <title>Portfolio Website</title>
 </head>
 <body>
+    
     <!--Header-->
     <!--Navigation Bar-->
     <header>
@@ -51,34 +52,44 @@
 
     <div id="projects">
         <h2>My Projects</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium libero corporis culpa sed ullam corrupti tempora earum nobis quisquam nostrum rem, beatae consectetur laudantium voluptatibus dolor distinctio quo recusandae quasi.</p>
+        <p>As a newbie in this coding world, I've made just some CodeCademy projects so far. I'm looking forward to many more to gain some good skills.</p>
           <div class="photos">
-              <a href="#"> <img src="./Gallery/tea1.jpg" alt="photo of a teacup"></a>
-              <a href="#"> <img src="./Gallery/art2.jpg" alt="photo of a general art"></a>
-              <a href="#"> <img src="./Gallery/pc.jpg" alt="an image of a laptop"></a>
-              <a href="#"> <img src="./Gallery/creativity.jpg" alt="a photo of a note in a hand"></a>
+            <a href="#"> <img src="./Gallery/tea1.jpg" alt="photo of a teacup"></a>        
+            <a href="#"> <img src="./Gallery/art2.jpg" alt="photo of a general art"></a>     
+            <a href="#"> <img src="./Gallery/pc.jpg" alt="an image of a laptop"></a>
+            <a href="#"> <img src="./Gallery/creativity.jpg" alt="a photo of a note in a hand"></a>
+             
+            </div>
            </div> 
         </div>
     </div>
 
-
-
-
     <div id="skills">
         <h2>Skills</h2>
       <p>I’ve picked up quite a few skills during self teaching myself and aim to improve these skills everyday. Here are a few of the technologies that I have experience with.</p>
+      
+      
       <h3>Languages:</h3>
-      <ul>
+
+     
+      <ul id="demo" style="display:none">
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
       </ul>
-      <h3>Tools</h3>
-      <ul>
+      <button type="button" onclick="document.getElementById('demo').style.display='block'">Click Me!</button>
+
+
+      <h3>Tools:</h3>
+
+     
+      <ul id="demo1" style="display:none">
           <li>Bash</li>
           <li>Git & GitHub</li>
       </ul>
+      <button type="button" onclick="document.getElementById('demo1').style.display='block'">Click Me!</button>
     </div>
+
 
     <footer>
         <h5>Melinda Szoke @ 2021</h5>
@@ -86,14 +97,8 @@
         <a href="https://www.facebook.com/melinda.szoke.39/" class="fa fa-facebook" target="_blank"></a>
         <a href="https://www.instagram.com/melinda.szoke/" class="fa fa-instagram" target="_blank"></a>
         <a href="https://github.com/SzokeMelinda/" class="fa fa-github" target="_blank"></a>
-
-
     </footer>
 
-    
-
-
-
-
+    <script src="./javascript.js"></script>
 </body>
 </html>
